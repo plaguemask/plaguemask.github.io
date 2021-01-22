@@ -14,7 +14,7 @@ function generateNames() {
             
             // If one is found, slice it off and replace it with a random one
             if (item.match(cc)) {
-                var newitem = replist[Math.floor(Math.random() * replist.length)].slice(1).concat(item.slice(cc.length-1));
+                var newitem = replist[Math.floor(Math.random() * replist.length)].concat(item.slice(cc.length-1));
                 result += newitem + '<br />';
                 startswithconsonant = true;
                 break;
@@ -23,7 +23,7 @@ function generateNames() {
 
         // If no consonant cluster found, append one to beginning
         if (!startswithconsonant) {
-            var newitem = replist[Math.floor(Math.random() * replist.length)].slice(1).concat(item);
+            var newitem = replist[Math.floor(Math.random() * replist.length)].concat(item);
             result += newitem + '<br />';
         }
     }
