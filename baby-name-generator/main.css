@@ -5,12 +5,12 @@ body {
 
 h1 {
     font-family: 'Indie Flower', arial, serif;
-    font-size: 64px;
+    font-size: 400%;
 }
 
 p {
     font-family: 'Maven Pro', arial, serif;
-    font-size: 36px;
+    font-size: 200%;
 }
 
 .button {
@@ -21,7 +21,9 @@ p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Maven Pro', arial, serif;
     transition-duration: 0.4s;
 }
 
