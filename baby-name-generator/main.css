@@ -4,12 +4,12 @@ body {
 }
 
 h1 {
-    font-family: 'Indie Flower', arial, serif;
+    font-family: 'Indie Flower', arial, sans-serif;
     font-size: 400%;
 }
 
 p {
-    font-family: 'Maven Pro', arial, serif;
+    font-family: 'Maven Pro', georgia, serif;
     font-size: 200%;
 }
 
@@ -23,7 +23,7 @@ p {
     display: inline-block;
     font-size: large;
     font-weight: bold;
-    font-family: 'Maven Pro', arial, serif;
+    font-family: 'Maven Pro', arial, sans-serif;
     transition-duration: 0.4s;
 }
 
