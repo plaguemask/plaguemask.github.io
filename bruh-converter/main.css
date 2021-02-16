@@ -18,16 +18,16 @@ select {
     color: black;
     cursor: pointer;
     border: 1px solid black;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'DM Mono', arial, sans-serif;
 }
 
 label {
-    font-size: large;
+    font-size: 18px;
 }
 
 input[type="text"] {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'DM Mono', arial, sans-serif;
 }
 
@@ -39,7 +39,7 @@ input[type="text"] {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: large;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'DM Mono', arial, sans-serif;
     transition-duration: 0.4s;
