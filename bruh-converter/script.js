@@ -1,3 +1,10 @@
+function enterKeyPressed(event) {
+   if (event.keyCode == 13) {
+      convert()
+      return true;
+   }
+}
+
 function convert() {
     var input = document.getElementById('input').value;
     var scaleelement = document.getElementById('scale')
