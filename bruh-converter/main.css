@@ -1,0 +1,51 @@
+body {
+    background-color: #ffeedd;
+    font-family: 'DM Mono', arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Mountains of Christmas', arial, sans-serif;
+    font-size: 400%;
+}
+
+p {
+    font-size: 200%;
+}
+
+select {
+    -webkit-appearance: none
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: 'DM Mono', arial, sans-serif;
+}
+
+label {
+    font-size: large;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    font-family: 'DM Mono', arial, sans-serif;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'DM Mono', arial, sans-serif;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
