@@ -18,7 +18,7 @@ function convert() {
         bruh = ((Number(input) - 32) * 50 / 33).toFixed(2);
     } else if (scale == "K") {
         bruh = ((Number(input) - 273.15) * 30 / 11).toFixed(2);
-        degrees = "";
+        degrees = " ";
     } else if (scale == "Ra") {
         bruh = ((Number(input) - 491.67) * 50 / 33).toFixed(2);
     } else if (scale == "Rø") {
